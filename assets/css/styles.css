@@ -141,3 +141,34 @@ nav a:hover{
   }
 }
 
+/* Problema */
+
+.problema{
+  margin: 2px 0 2px 0;
+  padding: 5rem;
+  display: flex;
+  min-height: 90vh;
+
+  & img{
+    border-radius: var(--radius);
+    width: 50%;
+  }
+}
+
+.problema-content{
+  display: inherit;
+  margin: auto;
+  padding: 4rem;
+  flex-direction: column;
+  gap: 10rem;
+  align-items: center;
+  & h2{
+    text-align: center;
+    color: var(--blue);
+  }
+
+  & p{
+    text-align: justify;
+    word-wrap: balance;
+  }
+}
