@@ -53,3 +53,41 @@ h3{
 p{
   font-size: var(--paragraph);
 }
+
+/* Header */
+
+header{
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 99999;
+}
+
+nav{
+  display: flex;
+  background-color: var(--grey);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+
+  & img{
+    width: 12rem;
+    height: 12rem;
+  }
+
+  & ul{
+    list-style: none;
+    display: flex;
+    gap: 6rem;
+    align-items: center;  
+  }
+}
+
+li{
+  font-size: 1.9rem;
+}
+
+nav a:hover{
+  color: var(--liBlue);
+  font-size: 2rem;
+}
