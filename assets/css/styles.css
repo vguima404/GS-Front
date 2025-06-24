@@ -92,3 +92,51 @@ nav a:hover{
   font-size: 2rem;
 }
 
+/* Hero */
+
+.hero{
+  color: var(--white);
+  display: flex;
+  padding: 4rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  background-image: linear-gradient(rgba(14, 42, 114, 0.3), rgba(1, 2, 8, 0.9)), url(../images/hero-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.hero-content{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-wrap: balance;
+  gap: 4rem;
+  justify-content: center;
+
+  & p{
+    text-align: justify;
+    width: 50%;
+  }
+}
+
+.btn{
+  color: var(--white);
+  font-weight: 900;
+  font-size: 1.8rem;
+  background-color: #3c414a;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 5rem;
+  border: 2px solid var(--grey);
+  border-radius: var(--radius);
+  width: 25%;
+  box-shadow: 0.2rem 0.2rem 0.9rem 0.2rem var(--grey);
+
+  &:hover{
+    color: var(--liBlue);
+    background: transparent;
+  }
+}
